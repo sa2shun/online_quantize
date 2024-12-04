@@ -1,0 +1,14 @@
+Dataset: GLUE - mrpc
+Base Model: meta-llama/Llama-3.1-70B-Instruct
+Quantization Method: 4-bit quantization with BitsAndBytesConfig
+Default Label: 0 (not similar, if no match found)
+Base Model Floating Point Precision: float64
+Quantization Config Details: 
+        load_in_4bit: True,
+        bnb_4bit_compute_dtype: torch.bfloat16,
+        bnb_4bit_quant_type: nf4,
+        bnb_4bit_use_double_quant: True,
+        llm_int8_skip_modules: None
+    
+ROPE Scaling Adjustment: Enabled with original_max_position_embeddings=8191
+Tokenizer Pad Token ID: 128009 (EOS token if not explicitly set)

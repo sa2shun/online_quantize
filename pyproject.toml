@@ -1,0 +1,28 @@
+[tool.poetry]
+name = "online-quantize"
+version = "0.1.0"
+description = ""
+authors = ["sa2shun <shunlovessoccer1107@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+torch = "^2.5.1"
+transformers = "^4.46.3"
+bitsandbytes = "^0.44.1"
+vllm = "^0.6.4.post1"
+jupyter = "^1.1.1"
+scikit-learn = "^1.5.2"
+accelerate = ">=0.26.0"
+datasets = "^3.1.0"
+notebook = "^7.2.2"
+huggingface-hub = "^0.26.3"
+tqdm = "^4.67.1"
+pandas = "^2.2.3"
+ace-tools = "^0.0"
+matplotlib = "^3.9.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

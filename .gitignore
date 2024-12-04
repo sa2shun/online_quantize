@@ -1,0 +1,21 @@
+# Python関連
+__pycache__/
+*.pyc
+*.pyo
+
+# キャッシュと中間生成物
+notebooks/.ipynb_checkpoints/
+notebooks/cache/
+notebooks/datasets_cache/
+*.lock
+
+# 大きなデータファイル（必要に応じて）
+*.csv
+
+# OS関連
+.DS_Store
+
+# IDE関連
+.idea/
+.vscode/
+
